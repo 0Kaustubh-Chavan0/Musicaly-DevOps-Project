@@ -17,4 +17,5 @@ COPY . .
 #Run the build command
 RUN npm run build 
 
-#
+# Stage 2 - Builder Stage
+FROM nginx:stable-alpine As Production
