@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: music-store
-          image: 788962775259.dkr.ecr.ap-south-1.amazonaws.com/music-store:latest
+          image: 788962775259.dkr.ecr.us-east-1.amazonaws.com/music-store-ecr
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
