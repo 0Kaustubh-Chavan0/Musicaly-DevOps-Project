@@ -1,4 +1,4 @@
-# Stage 1 - Builder Stag
+# Stage 1 - Builder Stage
 # Use Node.js 20 Alpine as builder image
 FROM node:20-alpine AS builder
 
